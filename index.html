@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BG Changer</title>
+</head>
+
+<style>
+    body {
+        align-items: center;
+    }
+    
+    .default {
+        margin-top: 10rem;
+        text-align: center;
+    }
+    
+    .secondary {
+        text-align: center;
+    }
+    
+    button {
+        margin: 1rem;
+        padding: 10px 20px;
+    }
+</style>
+
+<body>
+
+    <div class="default">
+        <button onclick="isClicked(this.getAttribute('id'));" id="white">WHITE</button>
+    </div>
+    <div class="secondary">
+        <button onclick="isClicked(this.getAttribute('id'));" id="red">RED</button>
+        <button onclick="isClicked(this.getAttribute('id'));" id="orange">ORANGE</button>
+        <button onclick="isClicked(this.getAttribute('id'));" id="yellow">YELLOW</button>
+        <button onclick="isClicked(this.getAttribute('id'));" id="green">GREEN</button>
+        <button onclick="isClicked(this.getAttribute('id'));" id="blue">BLLUE</button>
+        <button onclick="isClicked(this.getAttribute('id'));" id="indigo">INDIGO</button>
+        <button onclick="isClicked(this.getAttribute('id'));" id="violet">VIOLET</button>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
